@@ -6,7 +6,7 @@ from flask_restful import Api
 
 from controllers.auth_controller import AuthController
 from controllers.prediction_controller import DatePredictionController, PricePredictionController,DosagePredictionController
-from src.controllers.alive_controller import AliveController
+from controllers.alive_controller import AliveController
 from utils.meta_singleton import MetaSingleton
 
 

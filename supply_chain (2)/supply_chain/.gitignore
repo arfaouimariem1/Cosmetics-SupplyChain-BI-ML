@@ -1,0 +1,25 @@
+# Project
+venv
+out
+build
+tests/mocks/node_modules
+lib
+scripts
+pyvenv.cfg
+include
+.coverage
+credentials.json
+# IDE
+.idea
+*.iml
+
+# Cache
+__pycache__
+.pytest_cache
+
+# Visual Studio Code
+.vscode/*
+.history/*
+
+# MacOS
+.DS_Store
